@@ -21,7 +21,7 @@ def remove_strawberry(contacts)
         if label == "favorite_ice_cream_flavors"
           values.each do |icecream|
             if icecream == "strawberry"
-              icecream == "Yellow"
+              icecream = "Yellow"
             end
           end
         end
